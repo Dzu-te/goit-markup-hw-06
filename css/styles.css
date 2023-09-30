@@ -55,7 +55,7 @@ ul {
 }
 
 .container {
-  max-width: 1158px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -175,8 +175,10 @@ img {
 .hero_section {
   background-color: #2e2f42;
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/header-people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +193,7 @@ img {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  
 }
 
 .button {
@@ -236,7 +238,7 @@ img {
 }
 
 .li_description_company {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   min-width: 150px;
 }
 
@@ -293,7 +295,7 @@ img {
 .our_team_title {
   background-color: #ffffff;
   /* TODO: fix this mistake */
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   min-width: 250px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -372,7 +374,7 @@ img {
 }
 
 .our_portfolio_list {
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
   min-width: 250px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -582,7 +584,6 @@ img {
 }
 
 .modal_field {
-
   position: absolute;
   top: 50%;
   left: 50%;
@@ -683,7 +684,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal_input:focus+.svg_modal_icon {
+.modal_input:focus + .svg_modal_icon {
   fill: #4d5ae5;
 }
 
@@ -715,7 +716,8 @@ img {
   margin-bottom: 24px;
 }
 
-.input_checkbox {}
+.input_checkbox {
+}
 
 .label_privacy {
   font-size: 12px;
@@ -739,7 +741,7 @@ img {
   margin-right: 8px;
 }
 
-.input_privacy:checked+.label_privacy>.span_privacy {
+.input_privacy:checked + .label_privacy > .span_privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -765,4 +767,111 @@ img {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
+}
+
+/* MEDIA */
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+
+  /* HEADER*/
+
+
+
+  /* END HEADER*/
+
+  /* HERO SECTION */
+  .hero_section {
+    width: 100%;
+    padding: 72px 0;
+  }
+
+  .hero_section_one {
+    margin: 0 auto;   
+    margin-bottom: 72px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    max-width: 210px;
+    }
+
+  /*END HERO SECTION */
+
+  /* section 1 description company */
+  .section_description_company {
+    padding: 120px 16px;
+  }
+
+    .ul_description_company{
+      gap: 72px;
+    }
+
+  .li_description_company {
+    flex-basis: 100%;
+  }
+
+  .development_icon {
+    display: none;
+  }
+
+  .description_company_title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+    letter-spacing: 0.02em;
+  }
+
+  .p_descripion_company {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 400;
+  }
+
+  /* END section 1 description company */
+
+  /* Section 2 Our team */
+  .section_second_our_team {
+    padding: 120px 28px;
+  }
+
+    .ul_our_team{
+      gap: 72px;
+    }
+
+  .our_team_title {
+    flex-basis: 100%;
+  }
+
+    /* END Section 2 Our team */
+
+    /* section 3 our portfolio */
+  .section_three_our_portfolio {
+    padding: 120px 16px;
+  }
+
+  .ul_our_portfolio{
+    gap: 48px;
+  }
+
+  .our_portfolio_list {
+    flex-basis: 100%;
+  }
+  
+  /* END section 3 our portfolio */
+}
+
+@media (min-width: 768px) {
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1158px) {
 }
