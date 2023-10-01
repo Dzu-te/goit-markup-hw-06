@@ -27,7 +27,7 @@
           <a class="nav_logo_link" href="./index.html"
             >Web<span class="logo_studio">Studio</span></a
           >
-          <button class="head_mob_btn">
+          <button class="head_mob_btn" type="button">
             <svg class="svg_head_mob_btn" width="24" height="24">
               <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
             </svg>
@@ -582,45 +582,86 @@
     <!-- END modal field -->
     <!-- MOBILE MENU -->
     <div class="container_menu_mobile">
-      <div class="menu-mobile">
-        <button class="menu_button" type="button" id="closeButton">
-          <svg class="menu_svg_close" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black"></use>
-          </svg>
-        </button>
-        <div class="container_mibile_menu">
-          <ul class="header_mibile_menu">
-            <li>
-              <a
-                class="nav_header_link nav_header_link_first"
-                href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li><a class="nav_header_link" href="">Portfolio</a></li>
-            <li><a class="nav_header_link" href="">Contacts</a></li>
-          </ul>
-        </div>
-        <div class="address_mobile">
-          <address class="address_mibile">
-            <ul class="header_ul_address">
-              <li class="header_li_addrss">
-                <a class="a_address" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
+      <div class="mobile_menu_outer">
+        <div class="container menu-mobile">
+          <div class="container_button_close">
+            <button class="menu_button" type="button">
+              <svg class="menu_svg_close" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="container_mobile_menu">
+            <ul class="header_mobile_menu">
+              <li>
+                <a
+                  class="nav_header_link nav_mobile_link_first"
+                  href="./index.html"
+                  >Studio</a
                 >
               </li>
-              <li class="header_li_addrss">
-                <a class="a_address" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
+              <li><a class="nav_header_link" href="">Portfolio</a></li>
+              <li>
+                <a class="nav_header_link nav_header_link_last_child" href=""
+                  >Contacts</a
                 >
               </li>
             </ul>
-          </address>
+          </div>
+          <div class="container_address_mobile">
+            <address class="address_mibile">
+              <ul class="header_ul_address">
+                <li class="header_li_addrss">
+                  <a class="a_address" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="header_li_addrss">
+                  <a class="a_address" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="mobie_menu_socials">
+            <ul class="our_team_socials">
+              <li class="social_links">
+                <a href="./index.html" class="a_ot_social">
+                  <svg class="ot_icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social_links">
+                <a href="./index.html" class="a_ot_social">
+                  <svg class="ot_icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social_links">
+                <a href="./index.html" class="a_ot_social">
+                  <svg class="ot_icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social_links">
+                <a href="./index.html" class="a_ot_social">
+                  <svg class="ot_icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
     <!-- END MOBILE MENU -->
-    -->
+
     <script src="./java-script.js"></script>
   </body>
 </html>
