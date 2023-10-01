@@ -946,6 +946,10 @@ img {
   /* END footer */
 
   /* drop-down menu */
+  .container_menu_mobile{
+    width: 320px;
+  }
+
 
   /* END drop-down menu */
 
