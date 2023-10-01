@@ -27,7 +27,7 @@
           <a class="nav_logo_link" href="./index.html"
             >Web<span class="logo_studio">Studio</span></a
           >
-          <button class="head_mob_btn" type="button">
+          <button class="head_mob_btn" type="button" id="openButtonMenu">
             <svg class="svg_head_mob_btn" width="24" height="24">
               <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
             </svg>
@@ -582,11 +582,11 @@
     <!-- END modal field -->
     <!-- DROP DOWN MENU MOBILE -->
     <!-- add class - "is-open" in "container_menu_mobile"-->
-    <div class="container_menu_mobile is-open">      
+    <div class="container_menu_mobile" id="overLayMenu">      
       <div class="mobile_menu_outer">
         <div class="container menu-mobile">
           <div class="container_button_close">
-            <button class="menu_button" type="button">
+            <button class="menu_button" type="button" id="closeButtonMenu">
               <svg class="menu_svg_close" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>

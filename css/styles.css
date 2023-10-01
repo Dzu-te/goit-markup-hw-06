@@ -966,6 +966,7 @@ img {
     pointer-events: auto;
   }
 
+  /* TODO: no padding in mobile-phone */
   .menu-mobile {
     position: absolute;
     top: 50%;
