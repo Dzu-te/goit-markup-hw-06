@@ -953,12 +953,10 @@ img {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
       visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow-y: scroll;
-    
   }
 
-    .mobile_menu_outer {
-      
-    }
+  .mobile_menu_outer {
+  }
 
   .is-open {
     opacity: 1;
@@ -981,8 +979,6 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 24px 24px 40px 16px;
   }
-
-  
 
   .menu_button {
     position: absolute;
@@ -1065,140 +1061,143 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
-
-  .container{
+  .container {
     max-width: 768px;
     padding: 96px 16px;
   }
 
-    .hero_section,
-    .section_description_company,
-    .section_second_our_team,
-    .section_three_our_portfolio,
-    .footer {
-      padding: 0;
-    }
+  .hero_section,
+  .section_description_company,
+  .section_second_our_team,
+  .section_three_our_portfolio,
+  .footer {
+    padding: 0;
+  }
 
-  .container_menu_mobile{
+  .container_menu_mobile {
     display: none;
   }
 
   /* HEADER*/
 
-  .header_inner{
+  .header_inner {
     padding: 16px;
   }
 
-  .nav_logo_link{
+  .nav_logo_link {
     margin-right: 0;
   }
 
-  .head_mob_btn{
+  .head_mob_btn {
     display: none;
   }
 
-  .header_menu{
+  .header_menu {
     justify-content: center;
   }
 
-  .header_ul_address{
+  .header_ul_address {
     flex-direction: column;
     gap: 12px;
-    
   }
 
-  .nav_header_link
-  {
+  .nav_header_link {
     padding: 0;
   }
 
-  .a_address{
+  .a_address {
     padding: 0;
   }
   /* END HEADER*/
 
-    /* HERO SECTION */
+  /* HERO SECTION */
 
-    .hero_section{
-      padding: 112px 0;
-    }
+  .hero_section {
+    padding: 112px 0;
+  }
 
-    .hero_section_one{
-      margin-bottom: 36px;
-    }
+  .hero_section_one {
+    margin-bottom: 36px;
+  }
 
-  .development_icon{
+  .development_icon {
     display: none;
   }
-    /*END HERO SECTION */
+  /*END HERO SECTION */
 
+  /* section 1 description company */
 
-
-    /* section 1 description company */
-  
-
-  .ul_description_company{
+  .ul_description_company {
     row-gap: 72px;
     column-gap: 24px;
   }
 
-  .li_description_company{
+  .li_description_company {
     width: 100%;
     min-width: 356px;
-    flex-basis: calc((100% - 24) 2);    
+    flex-basis: calc((100% - 24) 2);
   }
 
-  .description_company_title{
+  .description_company_title {
     font-size: 36px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 1.111;      
-      letter-spacing: 0.02px;
-      text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.111;
+    letter-spacing: 0.02px;
+    text-transform: capitalize;
   }
 
-  .p_descripion_company{
+  .p_descripion_company {
     font-weight: 500;
   }
-    /* END section 1 description company */
+  /* END section 1 description company */
 
-    /* Section 2 Our team */
-    .ul_our_team{
-      justify-content: center;
-      row-gap: 64px;      
-    }
-    /* END Section 2 Our team */
+  /* Section 2 Our team */
+  .ul_our_team {
+    justify-content: center;
+    row-gap: 64px;
+  }
+  /* END Section 2 Our team */
 
-    /* section 3 our portfolio */
-    .ul_our_portfolio{
-      justify-content: center;
-      row-gap: 72px;
-    }
-    /* END section 3 our portfolio */
+  /* section 3 our portfolio */
+  .ul_our_portfolio {
+    justify-content: center;
+    row-gap: 72px;
+  }
+  /* END section 3 our portfolio */
 
-    /* section footer */
+  /* section footer */
 
-    .footer_container{
-      column-gap: 24px;
-      row-gap: 72px;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
+  .footer_container {
+    column-gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .footer_info{
-      margin: 0;
-    }
+  .footer_info {
+    margin: 0;
+  }
 
-    .container_footer_form{
-      margin-left: 0;
-      margin-right: 80px;
-    }
+  .container_footer_form {
+    margin-left: 0;
+    margin-right: 80px;
+  }
 
-    /* END section footer */
-
+  /* END section footer */
 }
 
 @media (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
 
+  .head_mob_btn {
+    display: none;
+  }
+
+  .container_menu_mobile {
+    display: none;
+  }
 }
