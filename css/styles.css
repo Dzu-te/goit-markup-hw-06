@@ -1071,6 +1071,18 @@ img {
     padding: 96px 16px;
   }
 
+    .hero_section,
+    .section_description_company,
+    .section_second_our_team,
+    .section_three_our_portfolio,
+    .footer {
+      padding: 0;
+    }
+
+  .container_menu_mobile{
+    display: none;
+  }
+
   /* HEADER*/
 
   .header_inner{
@@ -1123,13 +1135,7 @@ img {
 
 
     /* section 1 description company */
-  .hero_section,
-  .section_description_company,
-  .section_second_our_team,
-    .section_three_our_portfolio
-  {
-    padding: 0;
-  }
+  
 
   .ul_description_company{
     row-gap: 72px;
@@ -1169,6 +1175,27 @@ img {
       row-gap: 72px;
     }
     /* END section 3 our portfolio */
+
+    /* section footer */
+
+    .footer_container{
+      column-gap: 24px;
+      row-gap: 72px;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer_info{
+      margin: 0;
+    }
+
+    .container_footer_form{
+      margin-left: 0;
+      margin-right: 80px;
+    }
+
+    /* END section footer */
 
 }
 
