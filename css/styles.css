@@ -1157,9 +1157,21 @@ img {
     /* END section 1 description company */
 
     /* Section 2 Our team */
+    .ul_our_team{
+      justify-content: center;
+      row-gap: 64px;      
+    }
     /* END Section 2 Our team */
+
+    /* section 3 our portfolio */
+    .ul_our_portfolio{
+      justify-content: center;
+      row-gap: 72px;
+    }
+    /* END section 3 our portfolio */
 
 }
 
 @media (min-width: 1158px) {
+
 }
