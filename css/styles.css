@@ -238,7 +238,7 @@ img {
 
 .li_description_company {
   flex-basis: calc((100% - 72px) / 4);
-  min-width: 150px;
+  /* min-width: 150px; */
 }
 
 .development_icon {
@@ -1065,6 +1065,100 @@ img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157.98px) {
+
+  .container{
+    max-width: 768px;
+    padding: 96px 16px;
+  }
+
+  /* HEADER*/
+
+  .header_inner{
+    padding: 16px;
+  }
+
+  .nav_logo_link{
+    margin-right: 0;
+  }
+
+  .head_mob_btn{
+    display: none;
+  }
+
+  .header_menu{
+    justify-content: center;
+  }
+
+  .header_ul_address{
+    flex-direction: column;
+    gap: 12px;
+    
+  }
+
+  .nav_header_link
+  {
+    padding: 0;
+  }
+
+  .a_address{
+    padding: 0;
+  }
+  /* END HEADER*/
+
+    /* HERO SECTION */
+
+    .hero_section{
+      padding: 112px 0;
+    }
+
+    .hero_section_one{
+      margin-bottom: 36px;
+    }
+
+  .development_icon{
+    display: none;
+  }
+    /*END HERO SECTION */
+
+
+
+    /* section 1 description company */
+  .hero_section,
+  .section_description_company,
+  .section_second_our_team,
+    .section_three_our_portfolio
+  {
+    padding: 0;
+  }
+
+  .ul_description_company{
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .li_description_company{
+    width: 100%;
+    min-width: 356px;
+    flex-basis: calc((100% - 24) 2);    
+  }
+
+  .description_company_title{
+    font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.111;      
+      letter-spacing: 0.02px;
+      text-transform: capitalize;
+  }
+
+  .p_descripion_company{
+    font-weight: 500;
+  }
+    /* END section 1 description company */
+
+    /* Section 2 Our team */
+    /* END Section 2 Our team */
+
 }
 
 @media (min-width: 1158px) {
