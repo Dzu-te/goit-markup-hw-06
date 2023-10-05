@@ -769,6 +769,11 @@ img {
   color: #8e8f99;
 }
 
+.label_privacy:hover,
+.label_privacy:focus {
+  color: #404BBF;
+}
+
 .span_privacy {
   width: 16px;
   height: 16px;
@@ -783,6 +788,9 @@ img {
   fill: transparent;
   margin-right: 8px;
 }
+
+
+
 
 .input_privacy:checked + .label_privacy > .span_privacy {
   background-color: #404bbf;
