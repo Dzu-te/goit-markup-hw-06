@@ -798,6 +798,12 @@ img {
   fill: #f4f4fd;
 }
 
+.input_privacy:hover+.label_privacy>.span_privacy {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .a_privacy {
   color: #4d5ae5;
 }
