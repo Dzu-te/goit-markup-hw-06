@@ -1274,6 +1274,10 @@ input {
     display: none;
   }
 
+    .nav_header_link_first::after{
+      bottom: -1;
+    }
+
   .container_menu_mobile {
     display: none;
   }
