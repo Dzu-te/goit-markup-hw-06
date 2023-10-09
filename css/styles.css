@@ -1052,8 +1052,8 @@ input {
 
   .menu_button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 24px;
+    right: 24px;
     border: none;
     background: none;
     min-width: 24px;
@@ -1062,7 +1062,15 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #E7E9FC;
+    border-radius: 50%;    
   }
+
+.menu_button:hover,
+.menu_button:focus{
+  background-color: #404BBF;
+}
+
 
   .header_mobile_menu {
     padding-left: 0;
