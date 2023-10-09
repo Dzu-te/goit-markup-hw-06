@@ -1281,4 +1281,8 @@ input {
     flex-basis: 100%;
     max-width: 360px;
   }
+
+    .footer_container{
+      justify-content: space-between;
+    }
 }
