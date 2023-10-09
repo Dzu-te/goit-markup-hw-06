@@ -346,6 +346,8 @@ img {
   gap: 24px;
   padding-left: 0;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .our_team_title {
@@ -424,6 +426,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  justify-content: space-between;
   padding: 0;
 }
 
@@ -1061,7 +1064,6 @@ input {
     align-items: center;
   }
 
-
   .header_mobile_menu {
     padding-left: 0;
     margin-bottom: 0;
@@ -1166,7 +1168,7 @@ input {
   }
 
   .nav_header_link {
-    padding: 0;
+    padding: 24px 0;
   }
 
   .a_address {
